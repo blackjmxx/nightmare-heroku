@@ -1,7 +1,7 @@
 const Nightmare = require('nightmare');
 const nightmare = Nightmare({ show: false });
 
-const URL = 'http://blog.oscarmorrison.com/nightmarejs-on-heroku-the-ultimate-scraping-setup/';
+const URL = 'https://www.zalando.fr/pier-one-chemise-dark-blue-pi922da2u-k11.html';
 console.log('Welcome to Nightmare scrape\n==========');
 
 nightmare
