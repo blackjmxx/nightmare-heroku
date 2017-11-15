@@ -6,7 +6,7 @@ console.log('Welcome to Nightmare scrape\n==========');
 
 nightmare
     .goto(URL)
-    .wait('.post-title')
+    .wait('.zvui-product-price-display')
     .evaluate(() => document.querySelector('.zvui-product-price-display').textContent)
     .end()
     .then((result) => {
